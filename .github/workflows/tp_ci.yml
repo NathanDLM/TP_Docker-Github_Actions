@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Docker
-        uses: actions/setup-docker-action@v4
+        uses: actions/setup-docker-action@v5
       - name: login dockerhub
         uses: docker/login-action@v4
         with: 
